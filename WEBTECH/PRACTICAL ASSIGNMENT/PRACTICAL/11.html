@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+</head>
+<body>
+
+<script>
+    let secret = 7;   
+    let guess = parseInt(prompt("Guess the number:"));
+
+    if (guess > secret) {
+        alert("Your guess is HIGHER than the secret number.");
+    }
+    else if (guess < secret) {
+        alert("Your guess is LOWER than the secret number.");
+    }
+    else {
+        alert("Correct! You guessed the number.");
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TICKET PRICE CALCULATOR</title>
+</head>
+<body>
+
+<h2>TICKET PRICE CALCULATOR</h2>
+
+<script>
+    let age = parseInt(prompt("Enter your age:"));
+    if (age>=0 && age<=12) {
+        document.write("Your ticket price is: $5" );
+    }
+    else if (age > 12 && age <= 18) {
+        document.write("Your ticket price is: $10" );
+    }
+    else if (age > 18 && age <= 59) {
+        document.write("Your ticket price is: $20" );
+    }
+    else  if (age >= 60) {
+        document.write("Your ticket price is: $15" );
+    }
+    else {
+        document.write("Invalid age! Please enter a valid age.");
+    }
+
+
+</script>
+
+</body>
+</html>
